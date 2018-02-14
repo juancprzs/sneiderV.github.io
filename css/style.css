@@ -1,0 +1,126 @@
+
+p {
+	text-align : justify;
+}
+
+/*Para el inicio*/
+.home{
+    background: url(../images/profile.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.home-wrapper{
+    margin-top:240px;
+    color:#fff;
+}
+.home-content h1{
+    font-size:65px;
+    text-transform:uppercase;
+    color:#fff;
+    font-weight:900;
+    font-family: "Raleway Webfont";
+    letter-spacing:12px;
+    border-top:2px solid #ecf0f2;
+    border-bottom:2px solid #ecf0f2;
+    padding:20px 0;
+    text-align : center;
+} 
+.home-content p{
+    font-size:25px;
+    margin-top:20px;
+    color:#ecf0f2;
+    text-align : center;
+}
+
+/*SECCIÓN ABOUT ME*/
+/*hacer que la imagen (about me)sea circular*/
+.imagen{
+	/*define el tamaño del circulo*/
+    height: 500px;
+    width: 500px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+/*centrar el texto*/
+.aboutme-text{
+	padding-top: 100px;
+}
+
+/*Para la parte de Educacion y Experiencia*/
+.education{
+	background: url(../images/u.jpg) no-repeat center top fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	width: 100%;
+	overflow: hidden;
+}
+
+/*no lo estoy usando */
+.education-wrapper{
+	margin-top:30px;
+}
+.education-content{
+	background: rgba(79, 50, 68, .7);
+	padding:60px 40px;
+	color:#fff;
+}
+.education-content h4{
+	color:#fff;
+	text-transform:uppercase;
+	font-size:26px;
+	font-family: "Raleway Webfont";
+	font-weight:600;
+	margin-bottom:50px;
+}
+.education-content .content-details h5{
+	color:#fff;
+	font-size:18px;
+}
+.education-content .content-details h6{
+	color:#ecf0f2;
+	font-size:16px;
+}
+.education-content .content-details p{
+	color:#ecf0f2;
+}
+.education-content .content-details.content-border{
+	border-bottom:1px solid #dadada;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+/*For About Us Section */
+
+.about-content{
+    margin-top:70px;
+}
+.about-content h4{
+    font-size:18px;
+    font-family: 'robotobold';
+}
+.about-content a{
+    margin-top:40px;
+}
+
+
+.sections {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+	overflow: hidden;
+}
+.overlay {
+	background-color: rgba(0, 0, 0, .45);
+	width: 100%;
+	overflow:hidden;
+	min-height:700px;
+}
