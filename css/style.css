@@ -48,10 +48,6 @@ p {
     border-radius: 50%;
     background-size: 100% auto;
 }
-/*centrar el texto*/
-.aboutme-text{
-	padding-top: 100px;
-}
 
 /*Para la parte de Educacion y Experiencia*/
 .education{
@@ -98,8 +94,11 @@ p {
 	margin-bottom: 30px;
 }
 
-/*For About Us Section */
+/*Sección: about me*/
 
+.aboutme-text{
+	padding-top: 50px;
+}
 .about-content{
     margin-top:70px;
 }
@@ -111,16 +110,87 @@ p {
     margin-top:40px;
 }
 
+/*sección: proyectos*/
+.proyect-head{
+	text-align : center;
+	font-family: "Raleway Webfont";
+}
+.proyect-head p{
+	text-align: center;
+}
+.proyect-image {
+	height: 150px;
+    width: 150px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
 
+/*sección: contacto*/
+.contact-head{
+	text-align : center;
+	font-family: "Raleway Webfont";
+	color: white;
+}
+.contact-head p{
+	text-align: center;
+	font-family: "Raleway Webfont";
+	color: white;
+}
+.contact-back {
+	background-color: black;
+}
+.contact-overlay {
+	background-color: rgba(0, 0, 0, .55);
+	width: 80%;
+	padding-top: 50px;
+	min-height:100px;
+}
+.contact-icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+.contact-icon.style2 {
+			-moz-transition: all 0.2s ease;
+			-webkit-transition: all 0.2s ease;
+			-ms-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+			border-radius: 100%;
+			display: inline-block;
+			padding: 0.5em;
+			border: solid 1px rgba(255, 255, 255, 0.25);
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+
+
+/*forma de las secciones y fondo*/
 .sections {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	position: relative;
 	overflow: hidden;
 }
+.sectionprojects{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #D1F2EB  ;
+	position: relative;
+	overflow: hidden;
+}
+.sectioncontact{
+	background: url(../images/ct1.jpg) center no-repeat;
+	background-color: black;
+	padding-top: 100px;
+	padding-bottom: 100px; 
+}
 .overlay {
-	background-color: rgba(0, 0, 0, .45);
+	background-color: rgba(0, 0, 0, .60);
 	width: 100%;
 	overflow:hidden;
 	min-height:700px;
 }
+
+

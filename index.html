@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sneider V</title>
+	<title>SneiderV</title>
+	<link rel="icon" href="images/g1.ico">
+	<meta charset="utf-8">
+	<meta name="author" content="Esneider Velandia Gonzalez">
+	<meta name="description" content="This is my webside v.1">
+	<meta name="keywords" content="systems engineering, WebDev, UniAndes, Sneider Velandia">
+
 	<!--Bootstrap CDN-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!--link to file css-->
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body id="top">
+	<!--barra de navegación-->
+	<nav id="navbar" class="navbar navbar-light bg-light">
+		<a class="navbar-brand" href="#">Esneider Velandia</a>
+		<ul class="nav nav-pills">
+			<li class="nav-item">
+				<a class="nav-link" href="#aboutme">about</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#education">education</a>
+			</li>
+
+		</ul>
+	</nav>
 
 	<!--Inicio-->
 	<header id="home" class="home home-main-content">
@@ -24,12 +43,13 @@
 </header>
 
 <!--sección: about me-->
-<section id="interest" class="sections">
+<section id="aboutme" class="sections">
 	<div class="container">
 		<div class="row">
 			<div class="col-6 aboutme-text">
-				<h4>Hi,</h4>
-				<p>Currently, I am a student of Systems and Computing Engineering at the Universidad de los Andes, in this moment I am studying my last year. <br>
+				<h3>About me</h3><br>
+
+				<p>Currently, I am a student of Systems &amp; Computing Engineering at the Universidad de los Andes, in this moment I am studying my last year. <br>
 					I am passionate about the topics of information technology architecture, information technology for business and software development. I want to have the ability to lead the innovation project plan of an organization to build integral solutions (information, infrastructure, software and security), to complexs problems aligning the business strategy and the IT strategy.<br>
 				Finally I want to contribute in the construction of modern and competitive companies identifying the needs and business opportunities to solve through the appropriate use of Information Technologies.</p>
 			</div>
@@ -54,7 +74,7 @@
 						<div class="content-details content-border">
 							<a href="https://uniandes.edu.co/es"><h5>Universidad de Los Andes</h5></a>
 							<h6>JANUARY 2012 - DECEMBER 2018</h6>
-							<p>In 2012 I started my math program, but in the course of time I discovered the wonderful of the programming. In 2014 I decided to change my program for Systems and Computing Engineering.</p> 
+							<p>In 2012 I started my math program, but in the course of time I discovered the wonderful of the programming. In 2014 I decided to change my program for Systems &amp; Computing Engineering.</p> 
 						</div>
 
 						<div class="content-details">
@@ -83,16 +103,64 @@
 							<h6>JANUARY 2017 - DECEMBER 2017</h6>
 							<p>During a year I had the opportunity to work in a company dedicated to the maintenance and assembly of computers, in addition developed small software projects and installation of network systems.</p>
 						</div>
-
 					</div>
-					<!-- </div>-->
-
 				</div>  
 			</div>
 		</div>
 	</div>       
 </section>
 
+<!--sección: mis proyectos-->
+<section id="projects" class="sectionprojects">
+	<div class="proyect-head">
+		<h2>My Projects History</h2>
+		<p>In this section I will put my projects in the course of time.</p>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="text-center">
+				<img src="images/p1.jpg" alt="KmusicApp" class= "proyect-image">
+			</div>
+			<div class="text-center">
+				<img src="images/cs.png" alt="coming soon" class= "proyect-image">
+			</div>
+			<div class="text-center">
+				<img src="images/cs2.jpg" alt="coming soon" class= "proyect-image">
+			</div>
+			<div class="text-center">
+				<img src="images/cs3.png" alt="coming soon" class= "proyect-image">
+			</div>
+			<div class="text-center">
+				<img src="images/cs.png" alt="coming soon" class= "proyect-image">
+			</div>
+			<div class="text-center">
+				<img src="images/cs.png" alt="coming soon" class= "proyect-image">
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--sección: contacto-->
+<section id="contact" class="sectioncontact">
+	<div class="container contact-overlay ">
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="contact-head ">
+					<h1>Let´s get in touch!</h1>
+					<p>Send me an email and I will get back you as soon as possible!</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<header id="header">
+					<ul class="icons">
+						<li><a href="#" class="contact-icon contact-icon.style2 fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</header>
+			</div>
+		</section>
 
 
 
@@ -101,12 +169,9 @@
 
 
 
-
-
-
-<!--Bootstrap JS-->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-</html>
+		<!--Bootstrap JS-->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+	</html>
