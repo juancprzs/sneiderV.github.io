@@ -3,5 +3,8 @@ This is the first project (My personal webside) of the web development course of
 It was developed with html, css, javascript and bootstrap.  
 If you want look at my webside only need put this URL in your favorite browser https://sneiderV.github.io, but if you prefer download the project, you need a web server local to run.
 
+#License
+Thus project has the standard MIT license.
+
 Esneider Velandia Gonzalez
 
