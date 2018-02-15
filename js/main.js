@@ -1,28 +1,28 @@
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+"use strict";
+//tiempo de la fecha del proyecto 2
+var fechaFin = new Date("March 5, 2018 09:30:00").getTime();
 
-// Update the count down every 1 second
+// modifico la cuenta cada segundo
 var x = setInterval(function() {
 
-  // Get todays date and time
-  var now = new Date().getTime();
+  // obtengo la fecha actual 
+  var fechaHoy = new Date().getTime();
 
-  // Find the distance between now an the count down date
-  var distance = countDownDate - now;
+  // tiempo restante
+  var restante = fechaFin - fechaHoy;
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // calculo el tiempo por dias, horas, minutos y segundos
+  var dia = Math.floor(restante / (1000 * 60 * 60 * 24));
+  var hora = Math.floor((restante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutos = Math.floor((restante % (1000 * 60 * 60)) / (1000 * 60));
+  var segundos = Math.floor((restante % (1000 * 60)) / 1000);
 
-  // Display the result in an element with id="cuenta"
-  document.getElementById("cuenta").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  // actualizo el elemento id="cuenta" en el index
+  document.getElementById("cuenta").innerHTML = dia + "d " + hora + "h "
+  + minutos + "m " + segundos + "s ";
 
-  // If the count down is finished, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("cuenta").innerHTML = "EXPIRED";
+  // si la cuenta termina escribo 
+  if (restante < 0) {
+    document.getElementById("cuenta").innerHTML = "In process to push";
   }
 }, 1000);

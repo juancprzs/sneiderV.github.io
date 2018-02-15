@@ -2,8 +2,11 @@
 p {
 	text-align : justify;
 }
-
-/*Para el inicio*/
+hr {
+    margin: auto;
+    width: 40%;
+}
+/*Seccion de inicio*/
 .home{
     background: url(../images/profile.jpg) no-repeat center top fixed;
     background-size: cover;
@@ -36,8 +39,8 @@ p {
     text-align : center;
 }
 
-/*SECCIÓN ABOUT ME*/
-/*hacer que la imagen (about me)sea circular*/
+/*Seccion de about me*/
+/*hacer que la imagen (about me) sea circular*/
 .imagen{
 	/*define el tamaño del circulo*/
     height: 500px;
@@ -48,8 +51,11 @@ p {
     border-radius: 50%;
     background-size: 100% auto;
 }
-
-/*Para la parte de Educacion y Experiencia*/
+.aboutme-text{
+	padding-top: 50px;
+	font-family: "Raleway Webfont";
+}
+/*Seccion de Educacion y Experiencia*/
 .education{
 	background: url(../images/u.jpg) no-repeat center top fixed;
 	background-size: cover;
@@ -58,11 +64,6 @@ p {
 	-o-background-size: cover;
 	width: 100%;
 	overflow: hidden;
-}
-
-/*no lo estoy usando */
-.education-wrapper{
-	margin-top:30px;
 }
 .education-content{
 	background: rgba(79, 50, 68, .7);
@@ -94,45 +95,7 @@ p {
 	margin-bottom: 30px;
 }
 
-/*Sección: about me*/
-
-.aboutme-text{
-	padding-top: 50px;
-}
-.about-content{
-    margin-top:70px;
-}
-.about-content h4{
-    font-size:18px;
-    font-family: 'robotobold';
-}
-.about-content a{
-    margin-top:40px;
-}
-
-/*sección: proyectos*/
-.proyect-head{
-	text-align : center;
-	font-family: "Raleway Webfont";
-}
-.proyect-head p{
-	text-align: center;
-}
-.proyect-image {
-	height: 150px;
-    width: 150px;
-    /* los siguientes valores son independientes del tamaño del círculo */
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto;
-}
-
-
-
-
-
-
+/*seccion de proyectos*/
 .project-coming {
      background: url(../images/i1.jpeg) no-repeat center top fixed;
     height: 100%;
@@ -144,9 +107,6 @@ p {
     padding-bottom: 400px;
     padding-top: 200px;
 }
-
-
-/* Position text in the middle */
 .project-text {
     position: absolute;
     top: 50%;
@@ -155,29 +115,7 @@ p {
     text-align: center;
 }
 
-/* Style the <hr> element */
-hr {
-    margin: auto;
-    width: 40%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*sección: contacto*/
+/*seccion contacto*/
 .contact-head{
 	text-align : center;
 	font-family: "Raleway Webfont";
@@ -187,9 +125,6 @@ hr {
 	text-align: center;
 	font-family: "Raleway Webfont";
 	color: white;
-}
-.contact-back {
-	background-color: black;
 }
 .contact-overlay {
 	background-color: rgba(0, 0, 0, .55);
@@ -221,6 +156,7 @@ hr {
 	padding-top: 100px;
 	padding-bottom: 100px; 
 }
+/*genero una seccion translucida*/
 .overlay {
 	background-color: rgba(0, 0, 0, .60);
 	width: 100%;
