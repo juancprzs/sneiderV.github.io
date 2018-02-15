@@ -6,6 +6,15 @@ hr {
     margin: auto;
     width: 40%;
 }
+/*barra de navegacion*/
+.navbar-style {
+   background-color: #34495E ;
+}
+.navbar-ct{
+	color: white;
+	font-family: "Raleway Webfont";
+	font-size:20px;
+}
 /*Seccion de inicio*/
 .home{
     background: url(../images/profile.jpg) no-repeat center top fixed;
@@ -38,7 +47,12 @@ hr {
     color:#ecf0f2;
     text-align : center;
 }
-
+.home-icon{
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
 /*Seccion de about me*/
 /*hacer que la imagen (about me) sea circular*/
 .imagen{
@@ -54,6 +68,7 @@ hr {
 .aboutme-text{
 	padding-top: 50px;
 	font-family: "Raleway Webfont";
+	font-size: 18px
 }
 /*Seccion de Educacion y Experiencia*/
 .education{
@@ -81,13 +96,17 @@ hr {
 .education-content .content-details h5{
 	color:#fff;
 	font-size:18px;
+	font-family: "Raleway Webfont";
 }
 .education-content .content-details h6{
 	color:#ecf0f2;
 	font-size:16px;
+	font-family: "Raleway Webfont";
 }
 .education-content .content-details p{
 	color:#ecf0f2;
+	font-family: "Raleway Webfont";
+	font-size: 18px
 }
 .education-content .content-details.content-border{
 	border-bottom:1px solid #dadada;
